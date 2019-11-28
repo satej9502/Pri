@@ -1,28 +1,21 @@
 # Pri
-TO CHECK A NUMBER IS PRIME OR NOT 
+TO CHECK A NUMBER IS EVEN or ODD 
 #include<iostream.h>
 #include<conio.h>
 #include<stdio.h>
 void main()
 {
 clrscr();
-int x,i;
+int x;
 cout<<"Enter the Number:";
 cin>>x;
-for(i=2;i<=x;i++)
-{
-  if(x % i==0)
+  if(x % 2==0)
   {
-   cout<<"It is a PRIME NUMBER";
+   cout<<"It is a EVEN NUMBER";
   }
   else
   {
-  cout<<"It is not a PRIME NUMBER";
+    cout<<"It is not a ODD NUMBER";
    }
-}
-else
-{
-cout<<"It is not a PRIME NUMBER";
-}
 getch();
 }
